@@ -1,0 +1,18 @@
+
+<div class="auth-container">
+    <h2>Editando a Atividade: {{task.title}}</h2>
+    <form action="/tasks/edit" method="POST">
+    <input type="hidden" name="id" value="{{task.id}}">
+    
+    <div class="form-control">
+        <label for="title">Título:</label>
+        <input type="text" name="title" value="{{task.title}}">
+    </div>
+    <div class="form-control">
+        <label for="description">Descrição:</label>
+        <textarea name="description" placeholder="Descreva a tarefa...">{{task.description}}</textarea>
+    </div>
+    <input type="submit" value="Editar">
+
+</form>
+</div>

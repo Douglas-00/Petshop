@@ -1,0 +1,132 @@
+
+/* Conteudo no container */
+  
+  .auth-container{
+    max-width: 450px;
+    margin: 2em auto;
+    display:flex;
+    flex-direction: column;
+  }
+  .auth-container h2{
+    margin-bottom: 1em;
+    color:#4876FF;
+    border-bottom: 1px solid #4876FF;
+    padding: 0.3em;
+  }
+  .auth-container p{
+    padding: 0.3em;
+    font-size: 13px;
+    font-weight: 300;
+  }
+  .auth-container a{
+    color:#0000FF;
+    text-decoration: none;
+  }
+  
+  .container form {
+    margin-top: 1.5em;
+  }
+  
+  .form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+  }
+  
+  .form-control label {
+    font-weight: bold;
+    margin-bottom: 0.3em;
+  }
+  
+  .form-control input,
+  .form-control textarea {
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  /* form input[type='submit'] {
+    background-color: #4682B4;
+    color: #fff;
+    padding: 0.7em 1.5em;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  } */
+/*Conteudo das Flash Message*/
+  .message{
+    padding: 1em;
+    color: #906005;
+    background-color: #feefd0;
+    border-color: #fde9bd;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto 2em;
+    max-width: 60%;
+  }
+  .success{
+    padding: 1em;
+    color: #0ca764;
+    background-color: #c4ecb1;
+    border-color: #fde9bd;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto 2em;
+    max-width: 60%;
+  }
+/*Conteudo do Exibir Tarefa*/
+  .task-list{
+    list-style: none;
+    margin-top: 4.5em;
+  }
+  
+  .task-list li{
+    padding: .5em;
+    margin-bottom:1em;
+    border-bottom:1px solid #d5d5d5;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .task-list .title{
+    font-weight: bold;
+    color:#db4c3f;
+    transition:.5s;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  .task-list .title:hover{
+    color:rgb(76, 76, 76);
+  }
+  .title.done{
+    text-decoration: line-through;
+    color:#ccc;
+  }
+  .actions{
+    display: flex;
+  }
+
+  .actions i{
+    font-size: 1.5em;
+    margin-right:.5em;
+    color:rgb(76, 76, 76);
+  }
+  .actions i:hover{
+      color:rgb(213, 49, 49);
+  }
+  .actions form{
+    margin: 0;
+  }
+  .actions button{
+    padding: .2em;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+
+
+ 
