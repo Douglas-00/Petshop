@@ -376,6 +376,7 @@ section {
   border: none;
   cursor: pointer;
   width: 100%;
+  margin-bottom: 20px;
 }
 .btnCriar:hover{
   background-color: #130f40;
@@ -444,7 +445,12 @@ section {
 .actions{
   display: flex;
 }
-
+.actions a{
+  margin-top: 0.5em;
+}
+.actions a{
+  width: 80%;
+}
 .actions i{
   font-size: 1.5em;
   margin-right:.5em;
@@ -530,6 +536,7 @@ section {
 .dog-food .image img,
 .cat-food .image img {
   width: 100%;
+
 }
 
 .dog-food .content,
@@ -619,7 +626,6 @@ section {
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 .shop .box-container .box .icons {
   position: absolute;
   top: 1rem;

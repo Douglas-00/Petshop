@@ -1,7 +1,7 @@
 const  {Sequelize} = require('sequelize')
 
 //Criando Conexão com o banco de dados
-const sequelize =  new Sequelize('','','',{
+const sequelize =  new Sequelize('petshop','root','1234',{
     host:'localhost',
     dialect:'mysql',
 });

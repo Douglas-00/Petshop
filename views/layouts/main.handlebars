@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Mania</title>
     <link rel="stylesheet" href="/css/style2.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     {{!-- Bootstrap ICONS --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
@@ -20,7 +21,6 @@
     <nav class="navbar">
         
             {{#if session.userid}}
-                <a href="/tasks">Cadastrar-Pet</a>
                 <a href="/tasks/exibir">Tarefas</a>
                 <a href="/tasks/add">Criar Tarefa</a>
                 <a href="/logout">Sair</a>
@@ -30,14 +30,12 @@
                 <a href="#shop">Produtos</a>
                 <a href="#services">Serviços</a>
                 <a href="#plan">Planos</a>
-                <a href="#contact">Contato</a>
                 <a href="/register">Cadastre-se</a>
             {{/if}}
     </nav>
 
     <div class="icons">
         <div class="fas fa-bars" id="menu-btn"></div>
-        <a href="#" class="fas fa-shopping-cart"></a>
         <div class="fas fa-user" id="login-btn"></div>
     </div>
 
@@ -81,5 +79,8 @@
    {{!-- <footer id="footer">
        <div class="corpo-footer"><span>Pet Mania &copy; 2022</span> </div>
     </footer> --}}
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/js/script.js"></script>
 </body>
+
 </html>

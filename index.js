@@ -21,6 +21,7 @@ const User = require('./models/User')
 const tasksRoutes =  require('./routes/tasksRoutes')
 const indexRoute = require('./routes/indexRoute')
 const authRoutes = require('./routes/authRoutes')
+const petRoute = require('./routes/petRoute')
 
 //import controller
 const IndexController = require('./controllers/IndexController')
@@ -74,6 +75,7 @@ app.use((req,res,next)=>{
 //Importando as Rotas 
 app.use('/tasks', tasksRoutes)
 app.use('/home', indexRoute)
+app.use('/pets', petRoute)
 
 app.use('/',authRoutes)
 

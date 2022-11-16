@@ -20,7 +20,7 @@
                     </button>
                 </form>
 
-                <a href="/tasks/edit/{{this.id}}"><i class="bi bi-pencil-square"></i></a>
+                <a href="/tasks/edit/{{this.id}}"><i class="bi bi-pencil-square" id="edit"></i></a>
 
                 <form action="/tasks/remove" method="POST">
                 <input type="hidden" name="id" value={{this.id}}>
@@ -32,5 +32,6 @@
             </div>
         </li>
     {{/each}}
+    <a href="/"><button class="btnCriar">Voltar</button></a>
 </ul>
 </div>
